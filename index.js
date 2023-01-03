@@ -8,7 +8,7 @@ const postRouter = require('./routes/postRoutes');
 const userRouter = require('./routes/userRoutes');
 
 const app = express();
-const mongoURL = 'mongodb+srv://Massimo:vwzyubqQf7TdEmug@cluster0.u7rfa76.mongodb.net/?retryWrites=true&w=majority';
+const mongoURL = 'PLACEHOLDER';
 
 
 let RedisStore = require('connect-redis')(session);
